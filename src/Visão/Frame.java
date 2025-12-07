@@ -8,10 +8,10 @@ public class Frame extends JFrame{
 		super();
 		Painel painel = new Painel();
 		this.setVisible(true);
-		this.setSize(1200, 700);
+		this.setSize(1920, 1080);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
-		this.add(painel);;
+		getContentPane().add(painel);;
 		
 	}
 
